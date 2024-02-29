@@ -10,16 +10,17 @@ function App() {
         <h1>CS 230L</h1>
         <h2>Section - 003 </h2>
         <p>WVU ID: 800256647</p>
-        <div className="card-container">
-          <Card />
-          <Card />
-          <Card />
-        </div>
+        <p>Hi I am Sandrik Tabidze</p>
       </header>
+      <NavBar />
+      <div className="card-container">
+        <Card />
+        <Card />
+        <Card />
+      </div>
     </div>
   );
 }
-
 
 export default App;
 

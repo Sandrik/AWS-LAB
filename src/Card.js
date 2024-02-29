@@ -1,3 +1,7 @@
+import React from 'react';
+
+function Card(){
+    return(
 <>
 <div class="card text-bg-primary mb-3" style="max-width: 18rem;">
   <div class="card-header">Header</div>
@@ -21,3 +25,6 @@
   </div>
 </div>
 </>
+    );
+}
+
