@@ -1,6 +1,12 @@
 .card-container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr); /* Three columns with equal width */
-    gap: 20px; /* Spacing between cards */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    gap: 20px;
+  }
+  
+  .card {
+    flex: 0 0 calc(33.33% - 20px); 
+    max-width: calc(33.33% - 20px);
   }
   
