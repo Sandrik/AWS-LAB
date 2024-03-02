@@ -19,9 +19,6 @@ function NavBar() {
             <li class="nav-item">
               <a class="nav-link" href="#">Contact</a>
             </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-            </li>
           </ul>
           {/* Add the search bar here */}
           <form class="d-flex">
